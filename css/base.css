@@ -1,1 +1,5 @@
 /* Estilos base globais do projeto */
+body {
+    font-family: var(--fonte-principal);
+    color: #333333;
+}
