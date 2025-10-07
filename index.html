@@ -7,8 +7,15 @@
     <meta name="description" content="Loja online de tênis — SyntaxWear" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/variables.css" />
-    <link rel="stylesheet" href="./css/layout.css" />
     <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
+
+    <link rel="stylesheet" href="./css/components/header.css" />
+    <link rel="stylesheet" href="./css/components/hero.css" />
+    <link rel="stylesheet" href="./css/components/panel.css" />
+    <link rel="stylesheet" href="./css/components/product.css" />
+
+    <link rel="stylesheet" href="./css/components/footer.css" />
   </head>
   <body>
     <!-- Header: logo e navegação principal -->
@@ -27,7 +34,7 @@
         role="navigation"
         aria-label="Navegação principal"
       >
-        <ul class="nav-list">
+        <ul>
           <li><a href="/masculino">Masculino</a></li>
           <li><a href="/feminino">Feminino</a></li>
           <li><a href="/outlet">Outlet</a></li>
@@ -35,40 +42,37 @@
       </nav>
 
       <nav
-        class="utility-nav"
+        class="header-nav-right"
         role="navigation"
         aria-label="Navegação utilitária"
       >
-        <ul class="utility-nav-list">
-          <li class="utility-item"><a href="/stores">Nossas lojas</a></li>
-          <li class="utility-item"><a href="/about">Sobre</a></li>
+        <ul>
+          <li><a href="/stores">Nossas lojas</a></li>
+          <li><a href="/about">Sobre</a></li>
 
-          <li class="utility-item">
+          <li>
             <a href="/account" aria-label="Minha conta">
               <img
                 src="images/icons/user.svg"
                 alt="Minha conta"
-                class="icon"
                 aria-hidden="true"
               />
             </a>
           </li>
-          <li class="utility-item">
+          <li>
             <a href="/help" aria-label="Ajuda">
               <img
                 src="images/icons/help.svg"
                 alt="Ajuda"
-                class="icon"
                 aria-hidden="true"
               />
             </a>
           </li>
-          <li class="utility-item">
+          <li>
             <a href="/cart" aria-label="Carrinho">
               <img
                 src="images/icons/cart.svg"
                 alt="Carrinho"
-                class="icon"
                 aria-hidden="true"
               />
             </a>
