@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SyntaxWear — Ecommerce</title>
+    <title>SyntaxWear - Tênis e Sneaker Online</title>
     <meta name="description" content="Loja online de tênis — SyntaxWear" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/variables.css" />
@@ -13,18 +13,68 @@
   <body>
     <!-- Header: logo e navegação principal -->
     <header class="header" role="banner">
-      <div class="header-container">
-        <a href="/" class="header-logo" aria-label="Go to homepage">
-          <!-- logo placeholder -->
-          <img src="images/logo/logo.svg" alt="SyntaxWear" id="logo" />
+      <h1 class="logo">
+        <a href="/" aria-label="Ir para a página inicial">
+          <img
+            src="images/logo/logo.svg"
+            title="SyntaxWear - Tênis e Sneaker Online"
+          />
         </a>
+      </h1>
 
-        <nav class="header-nav" role="navigation" aria-label="Main navigation">
-          <ul class="nav-list">
-            <!-- navigation items -->
-          </ul>
-        </nav>
-      </div>
+      <nav
+        class="header-nav"
+        role="navigation"
+        aria-label="Navegação principal"
+      >
+        <ul class="nav-list">
+          <li><a href="/masculino">Masculino</a></li>
+          <li><a href="/feminino">Feminino</a></li>
+          <li><a href="/outlet">Outlet</a></li>
+        </ul>
+      </nav>
+
+      <nav
+        class="utility-nav"
+        role="navigation"
+        aria-label="Navegação utilitária"
+      >
+        <ul class="utility-nav-list">
+          <li class="utility-item"><a href="/stores">Nossas lojas</a></li>
+          <li class="utility-item"><a href="/about">Sobre</a></li>
+
+          <li class="utility-item">
+            <a href="/account" aria-label="Minha conta">
+              <img
+                src="images/icons/user.svg"
+                alt="Minha conta"
+                class="icon"
+                aria-hidden="true"
+              />
+            </a>
+          </li>
+          <li class="utility-item">
+            <a href="/help" aria-label="Ajuda">
+              <img
+                src="images/icons/help.svg"
+                alt="Ajuda"
+                class="icon"
+                aria-hidden="true"
+              />
+            </a>
+          </li>
+          <li class="utility-item">
+            <a href="/cart" aria-label="Carrinho">
+              <img
+                src="images/icons/cart.svg"
+                alt="Carrinho"
+                class="icon"
+                aria-hidden="true"
+              />
+            </a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main id="main" role="main">
