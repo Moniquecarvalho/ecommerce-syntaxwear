@@ -2,9 +2,9 @@
 .hero {
   background: url('../../images/banner/hero-background.jpg') no-repeat center;
   background-size: cover;
-  border-radius: 15px;
-
-  height: 500px;
+  border-end-start-radius: 15px;
+  border-end-end-radius: 15px;
+  height: 600px;
   position: relative;
 }
 
@@ -39,17 +39,6 @@
   font-weight: 400;
   line-height: 36px;
   letter-spacing: 3px;
-}
-
-.btn {
-  font-size: 1.25rem;
-  width: 161px;
-  height: 48px;
-  border-radius: 25px;
-  color: #ffffff;
-  font-weight: 400;
-  padding: 10px 20px;
-  transition: background-color 0.3s, border 0.3s;
 }
 
 .btn-primary {
