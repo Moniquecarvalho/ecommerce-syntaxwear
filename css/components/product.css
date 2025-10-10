@@ -9,20 +9,27 @@
 }
 
 .category-card {
-   width: 313px;
-   height: 500px;
-   border-radius: 15px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+  position: relative;
+  width: 313px;
+  height: 500px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+  z-index: 1;
 }
 
 .category-name {
-    font-size: 1.25rem;
-    font-weight: 400;
-    margin-top: 10px;
-    text-align: center;
-    color: #ffffff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
 }
 
 .casual {
@@ -31,16 +38,16 @@
 }
 
 .esporte {
-    background: url('../../images/products/twnia\ exportivo.jpg') no-repeat center;
-    background-size: cover;
+  background: url('../../images/products/twnia\ exportivo.jpg') no-repeat center;
+  background-size: cover;
 }
 
 .moderno {
-    background: url('../../images/products/tênis\ colorido.jpg') no-repeat center;
-    background-size: cover;
+  background: url('../../images/products/tênis\ colorido.jpg') no-repeat center;
+  background-size: cover;
 }
 
 .futurista {
-    background: url('../../images/products/tênis\ futurista.jpg') no-repeat center;
-    background-size: cover;
+  background: url('../../images/products/tênis\ futurista.jpg') no-repeat center;
+  background-size: cover;
 }
