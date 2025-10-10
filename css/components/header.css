@@ -2,16 +2,16 @@
 .header {
     background-color: #ffffff;
     position: fixed;
-    top: 20px;
+    top: 60px;
     left: 50%;
     transform: translate(-50%);
-    width: calc(100% - 40px);
+    width: calc(100% - 210px);
     border-radius: 15px;
     z-index: 999;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.215rem 1.25rem;
+    padding: 0.265rem 1.25rem;
 }
 
 .logo img {
@@ -26,7 +26,7 @@
 .header-nav a,
 .header-nav-right a {
     font-size: 1.25rem;
-    color: var(--color-gray-900);
+    color: #333333;
     transition: color 0.3s;
 }
 

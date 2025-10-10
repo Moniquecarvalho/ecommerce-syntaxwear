@@ -2,10 +2,10 @@
 .hero {
   background: url('../../images/banner/hero-background.jpg') no-repeat center;
   background-size: cover;
-  border-end-start-radius: 15px;
-  border-end-end-radius: 15px;
+
   height: 500px;
   position: relative;
+  border-radius: 15px;
 }
 
 .hero-overlay {
@@ -19,7 +19,7 @@
 
 .hero-content {
   color: #ffffff;
-  max-width: 388px;
+  max-width: 360px;
   text-align: center;
 }
 
@@ -39,21 +39,4 @@
   font-weight: 400;
   line-height: 36px;
   letter-spacing: 3px;
-}
-
-.btn-primary {
-  background-color: transparent;
-  border: 2px solid #ffffff;
-  line-height: 23px;
-}
-
-.btn-secondary {
-  background-color: #ffffff;
-  color: #6329A2;
-}
-
-.btn:hover {
-  background-color: #6329A2;
-  color: #ffffff;
-  border: #6329A2;
 }
