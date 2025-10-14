@@ -32,51 +32,62 @@
         </a>
       </h1>
 
-      <nav
-        class="header-nav"
-        role="navigation"
-        aria-label="Navegação principal"
-      >
-        <ul>
-          <li><a href="/masculino">Masculino</a></li>
-          <li><a href="/feminino">Feminino</a></li>
-          <li><a href="/outlet">Outlet</a></li>
-        </ul>
-      </nav>
+      <input type="checkbox" class="menu-toggle" id="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon" aria-label="Menu">
+        <img src="./images/icons/hamburguer.svg" alt="Menu mobile" />
+      </label>
 
-      <nav
-        class="header-nav-right"
-        role="navigation"
-        aria-label="Navegação utilitária"
-      >
-        <ul>
-          <li><a href="/stores">Nossas lojas</a></li>
-          <li><a href="/about">Sobre</a></li>
+      <nav class="nav-container">
+        <nav
+          class="header-nav"
+          role="navigation"
+          aria-label="Navegação principal"
+        >
+          <ul>
+            <li><a href="/masculino">Masculino</a></li>
+            <li><a href="/feminino">Feminino</a></li>
+            <li><a href="/outlet">Outlet</a></li>
+          </ul>
+        </nav>
 
-          <li>
-            <a href="/account" aria-label="Minha conta">
-              <img
-                src="images/icons/user.svg"
-                alt="Minha conta"
-                aria-hidden="true"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="/help" aria-label="Ajuda">
-              <img src="images/icons/help.svg" alt="Ajuda" aria-hidden="true" />
-            </a>
-          </li>
-          <li>
-            <a href="/cart" aria-label="Carrinho">
-              <img
-                src="images/icons/cart.svg"
-                alt="Carrinho"
-                aria-hidden="true"
-              />
-            </a>
-          </li>
-        </ul>
+        <nav
+          class="header-nav-right"
+          role="navigation"
+          aria-label="Navegação utilitária"
+        >
+          <ul>
+            <li><a href="/stores">Nossas lojas</a></li>
+            <li><a href="/about">Sobre</a></li>
+
+            <li>
+              <a href="/account" aria-label="Minha conta">
+                <img
+                  src="images/icons/user.svg"
+                  alt="Minha conta"
+                  aria-hidden="true"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="/help" aria-label="Ajuda">
+                <img
+                  src="images/icons/help.svg"
+                  alt="Ajuda"
+                  aria-hidden="true"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="/cart" aria-label="Carrinho">
+                <img
+                  src="images/icons/cart.svg"
+                  alt="Carrinho"
+                  aria-hidden="true"
+                />
+              </a>
+            </li>
+          </ul>
+        </nav>
       </nav>
     </header>
 
