@@ -97,6 +97,7 @@ hr{
 	.footer-nav ul{
 		flex-direction: column;
 		gap: 2rem;
+        padding: 0;
 	}
 
 	.footer-social ul{
